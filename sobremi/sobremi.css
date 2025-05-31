@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  p{
+    margin: 20px;
+  }
+
+header {
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.contact-info a, span {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+    gap: 7px
+}
+
+.contact-info a:hover, span:hover {
+    transform: translateY(-3px);
+}
+
+nav {
+    color:#ffffff;
+    background: linear-gradient(#ffffff34, #ffffff34);
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff83;
+    box-shadow: 0 8px 32px rgb(232, 230, 230);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: column;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+     margin-left: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 0.784);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: black;;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-category {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.skill-bar {
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.skill-level {
+    height: 100%;
+    background: linear-gradient(to right, #362626, #3f19196e);
+    border-radius: 4px;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.language-item {
+    flex: 1;
+    min-width: 150px;
+}
+
+footer {
+    color: white;
+    padding-top: 3px;
+    text-align: center;  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}

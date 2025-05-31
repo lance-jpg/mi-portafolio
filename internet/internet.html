@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet | Lance Mackenzie</title>
+    <link rel="stylesheet" href="internet.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body>
+
+<main class="container">
+<section id="internet" class="browser-window">
+    <div class="browser-header">
+        <div class="browser-controls">
+            <span class="control close"></span>
+            <span class="control minimize"></span>
+            <span class="control maximize"></span>
+        </div>
+        <div class="address-bar">
+            <i class="fas fa-lock"></i>
+            <input type="text" value="https://mackenzie-pelaez.com" readonly>
+        </div>
+    </div>
+    <div class="browser-content">
+        <div class="homepage">
+            <h3>Bienvenido al Navegador</h3>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar en mi portafolio...">
+                <button><i class="fas fa-search"></i> Buscar</button>
+            </div>
+            <div class="quick-links">
+                <h4>Accesos rapidos</h4>
+                <div class="links-grid">
+                    <a href="../sobremi/sobre-mi.html" class="link-item">
+                        <i class="fas fa-user"></i>
+                        <span>Sobre Mi</span>
+                    </a>
+                    <a href="../proyectos/proyectos.html" class="link-item">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Proyectos</span>
+                    </a>
+                    <a href="../contacto/contacto.html" class="link-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Contacto</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+     <video class="video-fondo" autoplay muted loop>
+                    <source src="internetfondo.mp4" type="video/mp4">
+                  </video>
+
+    <footer>
+        <p>© 2025 Lance Mackenzie</p>
+      </footer>
+
+      <script src="internet.js"></script>
+
+</body>
+</html>

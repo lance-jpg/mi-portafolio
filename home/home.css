@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/home.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+.app-footer{
+    display: flex;
+}
+
+.app-footer {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+.app-footer img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .app-footer:hover {
+    transform: scale(1.1);
+  }
+
+  .desktop-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .desktop-icons .app {
+    width: 80px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .desktop-icons .app img {
+    width: 64px;
+    height: 64px;
+  }
+  
+.desktop-icons .app:hover {
+  cursor: crosshair;
+  box-shadow: #333 0 0 6px;
+  background-color: rgba(125, 168, 168, 0.394);
+}
+
+.ventana {
+    position: fixed;
+    top: 20px;
+    left: 150px;
+    width: 80%;
+    height: 85%;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: crosshair;
+  }
+  
+  .ventana .barra {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ventana iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+  
+  .ventana .contenido {
+    flex: 1;
+    overflow: hidden;
+  }
